@@ -1,0 +1,58 @@
+body {
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block {
+    width: calc(33.33% - 20px);
+    height: 296px;    
+    display: flex;    
+    flex-direction: column;
+    align-items: center;  
+    border-radius: 10px;  
+}
+.block:hover {
+    box-shadow: 10px 10px 10px 10px black;
+}
+.block__icon {
+    width: 17.5px;
+    height: 15px;
+    padding-left: 170px;
+    padding-top: 21px;
+}
+.block__picture {
+    width: 160px;
+    height: 120px;
+    margin-top: 31px;
+}
+.block__text {
+    text-align: left;
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.block__text__title {
+    font-size: 14px;
+    font-family: 'Roboto Bold';
+}
+.block__text__description {
+    font-size: 11px;
+    font-family: 'Roboto Light';
+}
+.block__text__price {
+    font-size: 14px;
+    font-family: 'Roboto Bold';
+}
+@font-face {
+    font-family: "Roboto Light"; 
+    src: url("./Roboto-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
+@font-face {
+    font-family: "Roboto Bold"; 
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
